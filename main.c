@@ -11,7 +11,7 @@
 #define INACTIVITY_THRESHOLD 300
 #define MAX_TRANSACTION_HISTORY 100
 
-// Logging function
+
 void logMessage(const char *message) {
     time_t currentTime = time(NULL);
     printf("[%s] %s\n", ctime(&currentTime), message);
